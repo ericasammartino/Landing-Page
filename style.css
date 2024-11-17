@@ -1,0 +1,134 @@
+* {
+  font-family: "Roboto";
+}
+
+header {
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 20px 184px;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-logo {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+a,
+.info {
+  font-size: 18px;
+  font-weight: 300;
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+.links {
+  display: flex;
+  gap: 16px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 96px 0px;
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 500px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.info {
+  margin-top: -35px;
+}
+
+.hero-btn {
+  background-color: #3882f6;
+  border: none;
+  border-radius: 5px;
+  width: 125px;
+  height: 40px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #e5e7eb;
+}
+
+.hero-right {
+}
+
+main {
+  text-align: center;
+}
+
+h2 {
+  padding: 8px;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.boxes {
+  display: flex;
+  flex: 1;
+}
+
+.box img {
+  border-radius: 10px;
+}
+
+/* <main>
+      <div class="top">
+        <h2>Some random information.</h2>
+        <div class="boxes">
+          <div class="box">
+            <img src="pic1.jpg" width="200" height="200" />
+            <p>this is some subtext under an illustration or image</p>
+          </div>
+          <div class="box2">
+            <img src="pic2.jpg" width="200" height="200" />
+            <p>this is some subtext under an illustration or image</p>
+          </div>
+          <div class="box3">
+            <img src="pic3.jpg" width="200" height="200" />
+            <p>this is some subtext under an illustration or image</p>
+          </div>
+          <div class="box4">
+            <img src="pic4.jpg" width="200" height="200" />
+            <p>this is some subtext under an illustration or image</p>
+          </div>
+        </div>
+      </div>
+      <div class="mid">
+        <p class="quote">
+          This is an inspiring quote, or a testimonial from a customer.Maybe
+          it's just filling up space, or maybe people will actually read it. Who
+          knows? All I know is that it looks nice.
+        </p>
+        <p class="credit">-Thor, God of Thunder</p>
+      </div>
+      <div class="bottom">
+        <div class="bottom-left">
+          <p>Call to action! It's time!</p>
+          <p>
+            Sign up for our product by clicking that button right over there!
+          </p>
+        </div>
+        <div class="bottom-right">
+          <button>Sign Up</button>
+        </div>
+      </div>
+    </main> */
